@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: #3f3f3f;
+}
+
+.bar{
+    background-color: #3f3f3f;
+    border-color: #3f3f3f;
+    color:#3f3f3f;
+}
+
+.dot:hover{
+    fill: fuchsia;
+}
+
+g{
+    color:white;
+}
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height:auto;
+    margin-top:5px;
+    color:#3f3f3f;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    margin-top:5px;
+    color:#3f3f3f;
+    font-size:18px;
+    text-align:center;
+}
+
+#title{
+    size:16px;
+    fill: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
